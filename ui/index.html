@@ -1,0 +1,13 @@
+<script>
+window.addEventListener("message", function(event) {
+    if (event.data.action === "copy") {
+        const el = document.createElement("textarea");
+        el.value = event.data.payload;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand("copy");
+        document.body.removeChild(el);
+        console.log("List of missing item icons copied to clipboard.");
+    }
+});
+</script>
