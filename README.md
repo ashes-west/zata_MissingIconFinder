@@ -27,4 +27,4 @@ In-game, run the following command:
 
 ## 💡 Notes
 
-- Only `.png` files inside `html/img/items/` are considered valid icons. There are other ways to attach icon images to icons. So there might be a couple of false positives for exotic setups.
+- Only `.png` files inside `html/img/items/` are considered valid icons. There are other ways to attach icon images to items. So there might be a couple of false positives for exotic setups.
